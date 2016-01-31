@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dob *.css
+recursive-include dob *.csv
+recursive-include dob *.html
+recursive-include dob *.ico
+recursive-include dob *.js
+recursive-include dob *.json
+recursive-include dob *.md
+recursive-include dob *.png
+recursive-include dob *.py
+recursive-include dob *.svg
+recursive-include dob *.txt
+recursive-exclude dob *.pyc
